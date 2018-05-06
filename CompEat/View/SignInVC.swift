@@ -7,9 +7,18 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
 class SignInVC: UIViewController {
 
+    // code for sign in https://firebase.google.com/docs/auth/ios/start
+    /*
+     Auth.auth().signIn(withEmail: email, password: password) { (user, error) in
+     // ...
+     }
+     */
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

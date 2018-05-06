@@ -7,12 +7,30 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
 class DashBoardVC: UIViewController {
 
+    //@IBOutlet weak var bar: UIImageView! //bar at the top of the screen.
+    
+    
+    //code for getting some user attributes
+    /*
+     if let user = user {
+     // The user's ID, unique to the Firebase project.
+     // Do NOT use this value to authenticate with your backend server,
+     // if you have one. Use getTokenWithCompletion:completion: instead.
+     let uid = user.uid
+     let email = user.email
+     let photoURL = user.photoURL
+     // ...
+     }
+     */
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        //self.bar.image = UIImage(named: "bar")
+        
         // Do any additional setup after loading the view.
     }
 

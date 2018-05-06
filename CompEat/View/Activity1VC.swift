@@ -1,5 +1,5 @@
 //
-//  SignUpVC.swift
+//  Activity1VC.swift
 //  CompEat
 //
 //  Created by Steven on 5/5/18.
@@ -7,18 +7,9 @@
 //
 
 import UIKit
-import Firebase
-import FirebaseAuth
 
-class SignUpVC: UIViewController {
+class Activity1VC: UIViewController {
 
-    
-    // code for sign up https://firebase.google.com/docs/auth/ios/start
-    /*
-     Auth.auth().createUser(withEmail: email, password: password) { (user, error) in
-     // ...
-     }
-     */
     override func viewDidLoad() {
         super.viewDidLoad()
 

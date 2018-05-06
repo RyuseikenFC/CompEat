@@ -1,5 +1,5 @@
 //
-//  SignUpVC.swift
+//  Challange1VC.swift
 //  CompEat
 //
 //  Created by Steven on 5/5/18.
@@ -7,18 +7,11 @@
 //
 
 import UIKit
-import Firebase
-import FirebaseAuth
 
-class SignUpVC: UIViewController {
+class Challange1VC: UIViewController {
 
+    @IBOutlet weak var imgImage: UIImageView!
     
-    // code for sign up https://firebase.google.com/docs/auth/ios/start
-    /*
-     Auth.auth().createUser(withEmail: email, password: password) { (user, error) in
-     // ...
-     }
-     */
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -30,7 +23,12 @@ class SignUpVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    
+    @IBAction func startWalk(_ sender: Any) {
+        UIView.animate(withDuration: 7, animations: {
+            self.imgImage.frame.origin.x += 200
+        }, completion: nil)
+    }
     /*
     // MARK: - Navigation
 
